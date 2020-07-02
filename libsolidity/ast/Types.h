@@ -628,6 +628,8 @@ public:
 	std::string toString(bool) const override;
 	TypePointer mobileType() const override;
 
+	bool isValidASCII() const;
+
 	std::string const& value() const { return m_value; }
 
 protected:
